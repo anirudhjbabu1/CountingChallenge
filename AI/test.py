@@ -87,7 +87,7 @@ def run_batch_test(test_dir, output_dir):
         print(f"Processed {img_name}: Detected {final_count} items")
 
 if __name__ == "__main__":
-    TEST_DIR = "/home/aipilot/AI/dataset/Test"
-    OUTPUT_DIR = "/home/aipilot/AI/results"
+    TEST_DIR = "/home/ai/AI/dataset/Test"
+    OUTPUT_DIR = "/home/ai/AI/results"
     
     run_batch_test(TEST_DIR, OUTPUT_DIR)
