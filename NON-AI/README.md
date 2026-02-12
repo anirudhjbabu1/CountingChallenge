@@ -18,3 +18,5 @@ python3 solution.py
 #change the input file in
 solve_non_ai('/home/aipilot/Non_AI/input.jpg')
 ```
+# Output
+The outputs are present in the folder Result
