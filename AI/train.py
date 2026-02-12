@@ -68,7 +68,7 @@ def train():
             total_loss += loss.item()
         print(f"Epoch {epoch+1} | Loss: {total_loss/len(img_list):.4f}")
 
-    torch.save(model.state_dict(), "/home/aipilot/AI/unet_weights.pth")
+    torch.save(model.state_dict(), "/home/ai/AI/unet_weights.pth")
     print("Training complete. Weights saved.")
 
 if __name__ == "__main__":
